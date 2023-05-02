@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.weather-app{
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #141414;
+    border-radius: 10px;
+    max-width: 600px;
+    background-image: url(https://img1.goodfon.com/wallpaper/nbig/4/8c/peyzazh-nebo-goluboe-solnce.jpg);
+}
+
+h2{
+    margin-top: 30px;
+    line-height: 28px;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0
+}
+li{
+    list-style: none;
+    line-height: 18px;
+}
+.temperature{
+    font-size: 40px;
+
+}
+.units{
+    position: relative;
+    top: -20px;
+}
+a:link{
+    text-decoration: none;
+}
+.weather-temp{
+    margin: 10px;
+}
+.weather-temp .active{
+    color: black;
+    cursor: default;
+}
+.icon{
+    position: relative;
+    top: -10px;
+
+}
+.forecast-weather{
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #141414;
+    border-radius: 10px;
+}
+.code{
+   margin: 0 22rem;
+}
